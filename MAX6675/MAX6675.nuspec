@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+	<metadata>
+		<id>Bauland.TinyCLR.Drivers.AnalogDevices.MAX6675</id>
+		<version>2.2.1.2000</version>
+		<authors>Bauland</authors>
+		<owners>Bauland</owners>
+		<readme>docs\readme.md</readme>
+		<license type="expression">CC-BY-4.0</license>
+		<icon>images\BaulandNuget.png</icon>
+
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<description>SolomonSystech SSD1306 driver for TinyCLR OS.</description>
+		<copyright>Copyright Bauland, LLC 2022</copyright>
+		<tags>TinyCLR Bauland</tags>
+		<dependencies>
+			<group targetFramework=".NETFramework4.8">
+				<dependency id="GHIElectronics.TinyCLR.Core" version="2.2.1.2000" />
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="$TargetDir$MAX6675.dll" target="lib\net48" />
+		<file src="..\BaulandNuget.png" target="images\" />
+		<file src="readme.md" target="docs\" />
+	</files>
+</package>
